@@ -11,3 +11,13 @@ h3{
     background-color: none;
     color: darkslategrey;
 }
+
+#form{
+    background-color:lightgrey;
+    margin: 10px;
+    padding: 30px;
+}
+#container{
+    overflow: hidden;
+    background-color: rgb(181, 194, 194)
+}
