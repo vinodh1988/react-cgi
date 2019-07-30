@@ -7,6 +7,9 @@ class App extends React.Component{
      render(){
        let appname="ReactJS application- ABCSoft";
        let developers=["Rahul","Ramu","Kiran","Johnson"];
+       let childlist=[["Intelli J","SQL Developer","VS Code"],
+                      ["React JS","Java and Spring","SQL"],
+                      ["MySQL","MongoDB"]];
       let code= developers.map(x=><li>{x}</li>)
         return(
           <div>
@@ -16,9 +19,9 @@ class App extends React.Component{
                  <ul>
                    {code}
                  </ul>
-                 <Box></Box>
-                 <Box></Box>
-                 <Box></Box>
+                 <Box title="Tools" items={childlist[0]}></Box>
+                 <Box title="Technologies" items={childlist[1]}></Box>
+                 <Box title="Databases" items={childlist[2]}></Box>
                  
                  
           </div>

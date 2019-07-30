@@ -6,3 +6,8 @@
     float: left;
     background-color: lightgreen;
 }
+
+h3{
+    background-color: none;
+    color: darkslategrey;
+}
